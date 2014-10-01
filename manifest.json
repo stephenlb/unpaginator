@@ -1,0 +1,12 @@
+{
+  "name": "Auto Un Paginator",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Auto Un Paginator",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "js": ["unpaginator.js"]
+    }
+  ]
+}
